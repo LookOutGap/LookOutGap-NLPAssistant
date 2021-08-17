@@ -1,1 +1,2 @@
-# This workflow will install Python dependencies
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information se
