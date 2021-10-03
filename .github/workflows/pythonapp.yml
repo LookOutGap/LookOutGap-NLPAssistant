@@ -11,4 +11,5 @@ on:
 
 jobs:
   build:
-    name: Bu
+    name: Build and Test Environment
+    runs-on: 'ubuntu-lates
