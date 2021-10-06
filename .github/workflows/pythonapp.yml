@@ -12,4 +12,6 @@ on:
 jobs:
   build:
     name: Build and Test Environment
-    runs-on: 'ubuntu-lates
+    runs-on: 'ubuntu-latest'
+    steps:
+      - uses: actions/checkout@v
