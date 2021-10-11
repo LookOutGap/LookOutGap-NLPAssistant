@@ -14,4 +14,6 @@ jobs:
     name: Build and Test Environment
     runs-on: 'ubuntu-latest'
     steps:
-      - uses: actions/checkout@v
+      - uses: actions/checkout@v2
+      - name: Set up Conda Environment
+        
