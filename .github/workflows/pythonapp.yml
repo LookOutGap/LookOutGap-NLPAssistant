@@ -16,4 +16,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Set up Conda Environment
-        
+        uses: conda-incubator/setup-miniconda@v2
+   
