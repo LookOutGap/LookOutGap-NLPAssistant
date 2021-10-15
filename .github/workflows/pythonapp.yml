@@ -20,4 +20,6 @@ jobs:
         with:
           activate-environment: nlp_env
           environment-file: dev_environment.yml
-          python
+          python-version: 3.7
+          auto-activate-base: false
+      - name: Run Unit Te
