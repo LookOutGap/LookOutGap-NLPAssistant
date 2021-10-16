@@ -22,4 +22,7 @@ jobs:
           environment-file: dev_environment.yml
           python-version: 3.7
           auto-activate-base: false
-      - name: Run Unit Te
+      - name: Run Unit Tests
+        shell: bash -l {0}
+        run: |
+          conda acti
