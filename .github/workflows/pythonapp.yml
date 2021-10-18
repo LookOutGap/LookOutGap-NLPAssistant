@@ -25,4 +25,5 @@ jobs:
       - name: Run Unit Tests
         shell: bash -l {0}
         run: |
-          conda activate nlp_env && pytest --junitxml=results.xml --cov=nlprov -
+          conda activate nlp_env && pytest --junitxml=results.xml --cov=nlprov --cov-report xml nlprov/test
+      - name: Upl
