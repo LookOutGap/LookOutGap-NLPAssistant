@@ -30,3 +30,5 @@ jobs:
         uses: codecov/codecov-action@v2
       - name: Lint Tutorial Notebook
         shell: bash -l {0}
+        run: |
+          pip install jupyter && pip instal
