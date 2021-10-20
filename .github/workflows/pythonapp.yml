@@ -31,4 +31,5 @@ jobs:
       - name: Lint Tutorial Notebook
         shell: bash -l {0}
         run: |
-          pip install jupyter && pip install flake8 && jupyter nbconvert tutorial.ipynb --to script 
+          pip install jupyter && pip install flake8 && jupyter nbconvert tutorial.ipynb --to script --stdout | flake8 - --ignore=W391
+      - name: Run Packa
