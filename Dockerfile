@@ -10,4 +10,4 @@ ADD conftest.py .
 
 ENV PYTHONUNBUFFERED=1
 
-RUN /bin/bash -c "echo '. ~/anaconda/etc/prof
+RUN /bin/bash -c "echo '. ~/anaconda/etc/profile.d/conda.sh' >> ~/.bash_profile && conda env create -f dev_e
