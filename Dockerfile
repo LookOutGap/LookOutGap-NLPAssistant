@@ -8,4 +8,6 @@ ADD setup.py .
 ADD README.md .
 ADD conftest.py .
 
-ENV PYTHON
+ENV PYTHONUNBUFFERED=1
+
+RUN /bin/bash -c "echo '. ~/anaconda/etc/prof
