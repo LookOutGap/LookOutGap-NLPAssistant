@@ -10,4 +10,8 @@ ADD conftest.py .
 
 ENV PYTHONUNBUFFERED=1
 
-RUN /bin/bash -c "echo '. ~/anaconda/etc/profile.d/conda.sh' >> ~/.bash_profile && conda env create -f dev_e
+RUN /bin/bash -c "echo '. ~/anaconda/etc/profile.d/conda.sh' >> ~/.bash_profile && conda env create -f dev_environment.yml"
+
+COPY nlprov ./nlprov
+
+RUN /bin/bash -c 'source acti
