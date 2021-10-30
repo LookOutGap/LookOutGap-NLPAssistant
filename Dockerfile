@@ -14,4 +14,4 @@ RUN /bin/bash -c "echo '. ~/anaconda/etc/profile.d/conda.sh' >> ~/.bash_profile 
 
 COPY nlprov ./nlprov
 
-RUN /bin/bash -c 'source acti
+RUN /bin/bash -c 'source activate nlp_env && pytest --junitxml=results.xml --cov=nlp
