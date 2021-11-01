@@ -14,4 +14,8 @@ RUN /bin/bash -c "echo '. ~/anaconda/etc/profile.d/conda.sh' >> ~/.bash_profile 
 
 COPY nlprov ./nlprov
 
-RUN /bin/bash -c 'source activate nlp_env && pytest --junitxml=results.xml --cov=nlp
+RUN /bin/bash -c 'source activate nlp_env && pytest --junitxml=results.xml --cov=nlprov --cov-report xml nlprov/test'
+
+FROM python:latest
+
+RUN mkd
