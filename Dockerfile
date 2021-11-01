@@ -18,4 +18,7 @@ RUN /bin/bash -c 'source activate nlp_env && pytest --junitxml=results.xml --cov
 
 FROM python:latest
 
-RUN mkd
+RUN mkdir -p /opt/app
+WORKDIR /opt/app
+
+ADD dev_environmen
