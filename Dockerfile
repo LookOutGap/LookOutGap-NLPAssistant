@@ -21,4 +21,8 @@ FROM python:latest
 RUN mkdir -p /opt/app
 WORKDIR /opt/app
 
-ADD dev_environmen
+ADD dev_environment.yml .
+ADD setup.py .
+ADD README.md .
+ADD conftest.py .
+ADD nlp_exam
