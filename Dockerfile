@@ -25,4 +25,8 @@ ADD dev_environment.yml .
 ADD setup.py .
 ADD README.md .
 ADD conftest.py .
-ADD nlp_exam
+ADD nlp_example.py .
+
+COPY nlprov ./nlprov
+
+RUN python -m pip install --user -
