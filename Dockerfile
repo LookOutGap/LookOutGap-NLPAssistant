@@ -29,4 +29,6 @@ ADD nlp_example.py .
 
 COPY nlprov ./nlprov
 
-RUN python -m pip install --user -
+RUN python -m pip install --user --upgrade setuptools wheel
+
+RUN python setup.py sdist bdist_w
