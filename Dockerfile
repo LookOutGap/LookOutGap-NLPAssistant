@@ -31,4 +31,6 @@ COPY nlprov ./nlprov
 
 RUN python -m pip install --user --upgrade setuptools wheel
 
-RUN python setup.py sdist bdist_w
+RUN python setup.py sdist bdist_wheel
+
+RUN python -m pip install --user dist/nlprov-
