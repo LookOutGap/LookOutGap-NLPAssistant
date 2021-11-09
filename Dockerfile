@@ -33,4 +33,6 @@ RUN python -m pip install --user --upgrade setuptools wheel
 
 RUN python setup.py sdist bdist_wheel
 
-RUN python -m pip install --user dist/nlprov-
+RUN python -m pip install --user dist/nlprov-1.1.0-py3-none-any.whl
+
+RUN python -m spacy download en_core_we
