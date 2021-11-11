@@ -1,3 +1,4 @@
 MIT License
 
-Copyright (c
+Copyright (c) 2020,
+    Johnson & Johnson Healthcare Technology Cen
