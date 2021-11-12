@@ -1,4 +1,6 @@
 MIT License
 
 Copyright (c) 2020,
-    Johnson & Johnson Healthcare Technology Cen
+    Johnson & Johnson Healthcare Technology Center Advanced Analytics
+
+Permission is hereby granted, free of c
