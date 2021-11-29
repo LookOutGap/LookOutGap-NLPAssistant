@@ -1,4 +1,7 @@
 coverage:
   status:
     project:
-      defau
+      default:
+        # basic
+        target: auto
+       
