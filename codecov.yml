@@ -7,4 +7,4 @@ coverage:
         threshold: 95%
         base: auto
         flags:
-         
+          - unit
