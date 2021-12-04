@@ -8,3 +8,5 @@ def sents_chars_expected():
                            "",
                            "",
                            "",
+                           "",
+                           ""
