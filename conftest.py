@@ -22,4 +22,6 @@ def sents_chars_expected():
                            ])
 
 
-def sents_nums_
+def sents_nums_expected():
+    return pd.Series(data=["",
+                    
