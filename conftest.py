@@ -44,4 +44,5 @@ def sents_nums_expected():
 
 
 def sents_all_expected():
-    ret
+    return pd.Series(data=["ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      
