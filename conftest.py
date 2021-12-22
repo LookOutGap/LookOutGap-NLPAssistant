@@ -47,4 +47,6 @@ def sents_all_expected():
     return pd.Series(data=["ABCDEFGHIJKLMNOPQRSTUVWXYZ",
                            "abcdefghijklmnopqrstuvwxyz",
                            "0123456789",
-                       
+                           "",
+                           ",./;'[]\-=",
+                
