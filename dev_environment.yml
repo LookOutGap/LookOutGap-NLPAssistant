@@ -1,4 +1,8 @@
 name: nlp_env
 channels:
   - defaults
-  - conda-fo
+  - conda-forge
+dependencies:
+  - pandas>=1.0.0
+  - pip
+  
