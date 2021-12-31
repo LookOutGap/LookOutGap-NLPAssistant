@@ -1,0 +1,4 @@
+name: nlp_env
+channels:
+  - defaults
+  - conda-fo
