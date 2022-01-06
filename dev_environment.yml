@@ -13,4 +13,9 @@ dependencies:
   - pytest-xdist>=1.28.0
   - pytest-sugar=0.9.*
   - pytest-cov
-  - 
+  - scipy
+  - numpy
+  - scikit-learn
+  - pip:
+    - nltk>=3.4.3
+    -
