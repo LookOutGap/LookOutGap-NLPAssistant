@@ -18,4 +18,5 @@ dependencies:
   - scikit-learn
   - pip:
     - nltk>=3.4.3
-    -
+    - langid>=1.1.6
+prefix: /anaconda3/envs/nlp_env
