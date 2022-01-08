@@ -4,4 +4,5 @@ services:
     container_name: nlp
     build:
       context: .
- 
+    volumes:
+      - .:/opt/app/
