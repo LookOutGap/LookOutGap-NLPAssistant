@@ -10,4 +10,5 @@ from nlprov.similarity_calc import similarity_calculation
 text = pd.Series(data=["  Combination  of   spaces.    ",
                        "MixEd CASe",
                        ",./;'[]\-=",
-  
+                       '<>?:"{}|_+',
+                       '!@#$%^&*(
