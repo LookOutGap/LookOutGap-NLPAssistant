@@ -11,4 +11,6 @@ text = pd.Series(data=["  Combination  of   spaces.    ",
                        "MixEd CASe",
                        ",./;'[]\-=",
                        '<>?:"{}|_+',
-                       '!@#$%^&*(
+                       '!@#$%^&*()`~"',
+                       "lemmas needed",
+                 
