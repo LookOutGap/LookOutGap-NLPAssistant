@@ -13,4 +13,5 @@ text = pd.Series(data=["  Combination  of   spaces.    ",
                        '<>?:"{}|_+',
                        '!@#$%^&*()`~"',
                        "lemmas needed",
-                 
+                       "ducks and cats and ponies are not similar",
+         
