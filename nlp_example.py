@@ -15,4 +15,6 @@ text = pd.Series(data=["  Combination  of   spaces.    ",
                        "lemmas needed",
                        "ducks and cats and ponies are not similar",
                        "c'est français",
-                       "d
+                       "das ist deutsch",
+                       "this is una mezcla"])
+preprocess
