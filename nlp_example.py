@@ -18,4 +18,6 @@ text = pd.Series(data=["  Combination  of   spaces.    ",
                        "das ist deutsch",
                        "this is una mezcla"])
 preprocessed_text = preprocess_text(text)
-vec_text, vec_obj = vectorize
+vec_text, vec_obj = vectorize_text(preprocessed_text)
+
+new_text = pd.Series(data=["ducks and cat
