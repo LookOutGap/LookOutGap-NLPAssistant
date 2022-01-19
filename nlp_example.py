@@ -20,4 +20,5 @@ text = pd.Series(data=["  Combination  of   spaces.    ",
 preprocessed_text = preprocess_text(text)
 vec_text, vec_obj = vectorize_text(preprocessed_text)
 
-new_text = pd.Series(data=["ducks and cat
+new_text = pd.Series(data=["ducks and cats are not similar"])
+new_preprocessed_text = preprocess_text
