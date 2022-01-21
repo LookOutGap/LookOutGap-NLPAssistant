@@ -24,4 +24,5 @@ new_text = pd.Series(data=["ducks and cats are not similar"])
 new_preprocessed_text = preprocess_text(new_text)
 new_vec_text = vectorize_new_text(new_preprocessed_text, vec_obj)
 
-similarity = similarity_calculation(new_vec_text, 
+similarity = similarity_calculation(new_vec_text, vec_text)
+
