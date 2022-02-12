@@ -61,3 +61,48 @@ def preprocess_text(text: pd.Series,
         raise Exception('stem and lemma cannot both be true')
 
     if nan_handling == 'remove':
+        text = text.dropna()
+    else:
+        text = text.fillna(nan_handling)
+
+    if lowercase:
+        text = text.str.lower()
+
+    text = text.apply(lambda s: re.sub(regex, ' ', s))
+
+    text = text.str.strip()
+    text = text.str.replace(r'\s+', ' ', regex=True)
+
+    if eng_lang:
+        text = text[text.apply(lambda t: langid.classify(t)[0]) == 'en']
+
+    if stop_words:
+        text = text.apply(lambda doc: ' '.join(
+            [item for item in doc.split(' ') if item not in stop_set]))
+
+    # Full pipeline
+    if lemma or stem:
+        text = pd.Series(nlp.pipe(text), index=text.index)
+        for ind, val in text.iteritems():
+            end_str = []
+            for item in val:
+                if lemma:
+                    end_str.append(item.lemma_)
+                elif stem:
+                    end_str.append(item._.stem)
+
+            text[ind] = end_str
+
+        if not token_list:
+            text = text.apply(lambda desc: ' '.join([item for item in desc]))
+    else:
+        if token_list:
+            # Only tokenization?
+            text = pd.Series([nlp.make_doc(t) for t in text], index=text.index)
+            text = text.apply(lambda doc: [tok.text for tok in doc])
+
+    dict_replace = {'\xa0': ' '}
+    dict_replace.update(replace_dict)
+    text = text.replace(dict_replace, regex=True)
+
+    return text
