@@ -3,4 +3,6 @@ Copyright © 2020 Johnson & Johnson
 """
 
 import warnings
-from skle
+from sklearn.metrics import pairwise_distances
+
+supported_
