@@ -11,4 +11,4 @@ sparse_metrics = ['cityblock', 'cosine', 'euclidean', 'l1', 'l2', 'manhattan']
 dense_metrics = ['braycurtis', 'canberra', 'chebyshev', 'correlation',
                  'dice', 'hamming', 'jaccard', 'kulsinski', 'mahalanobis',
                  'minkowski', 'rogerstanimoto', 'russellrao', 'seuclidean',
-                 'sokal
+                 'sokalmichener', 'sokalsneath', 'sqeuclidean', 'yule']
