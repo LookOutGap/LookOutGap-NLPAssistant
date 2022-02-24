@@ -12,3 +12,7 @@ dense_metrics = ['braycurtis', 'canberra', 'chebyshev', 'correlation',
                  'dice', 'hamming', 'jaccard', 'kulsinski', 'mahalanobis',
                  'minkowski', 'rogerstanimoto', 'russellrao', 'seuclidean',
                  'sokalmichener', 'sokalsneath', 'sqeuclidean', 'yule']
+
+
+def similarity_calculation(new_mat,
+               
