@@ -15,4 +15,5 @@ dense_metrics = ['braycurtis', 'canberra', 'chebyshev', 'correlation',
 
 
 def similarity_calculation(new_mat,
-               
+                           old_mat,
+                           m
