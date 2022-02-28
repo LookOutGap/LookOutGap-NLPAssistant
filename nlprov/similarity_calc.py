@@ -19,4 +19,5 @@ def similarity_calculation(new_mat,
                            metric: str = 'cosine'):
     """
     Calculate similarity between two sparse document-feature matrices
-    representing 
+    representing the new document-feature matrix (1 x f)
+    and the
