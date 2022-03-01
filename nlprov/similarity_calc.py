@@ -20,4 +20,6 @@ def similarity_calculation(new_mat,
     """
     Calculate similarity between two sparse document-feature matrices
     representing the new document-feature matrix (1 x f)
-    and the
+    and the old document-feature matrix(d x f)
+
+   
