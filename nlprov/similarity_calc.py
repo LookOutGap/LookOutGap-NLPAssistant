@@ -22,4 +22,5 @@ def similarity_calculation(new_mat,
     representing the new document-feature matrix (1 x f)
     and the old document-feature matrix(d x f)
 
-    :param new_mat: scipy csr object of dimensions d x 
+    :param new_mat: scipy csr object of dimensions d x f for d documents and
+        f features representing the new docu
