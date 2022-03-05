@@ -26,4 +26,5 @@ def similarity_calculation(new_mat,
         f features representing the new document-feature matrix, it should
         always be 1 x f.
     :param old_mat: scipy csr object of dimensions d x f for d documents and
-        f features representing the o
+        f features representing the old document-feature matrix, it should
+   
