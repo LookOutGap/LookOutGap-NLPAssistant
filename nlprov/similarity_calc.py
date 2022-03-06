@@ -28,4 +28,5 @@ def similarity_calculation(new_mat,
     :param old_mat: scipy csr object of dimensions d x f for d documents and
         f features representing the old document-feature matrix, it should
         always be d x f.
-    :param metric: string indica
+    :param metric: string indicating the similarity/distance metric to be used,
+        cosi
