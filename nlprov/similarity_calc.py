@@ -29,4 +29,6 @@ def similarity_calculation(new_mat,
         f features representing the old document-feature matrix, it should
         always be d x f.
     :param metric: string indicating the similarity/distance metric to be used,
-        cosi
+        cosine is the default.
+
+    :return: ndarray, similarity for eac
