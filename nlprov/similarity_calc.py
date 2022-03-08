@@ -34,4 +34,6 @@ def similarity_calculation(new_mat,
     :return: ndarray, similarity for each old document.
     """
 
-    # Check that
+    # Check that metric is supported
+    assert metric in supported_metrics
+
