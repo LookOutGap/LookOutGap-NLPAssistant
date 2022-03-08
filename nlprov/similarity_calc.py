@@ -31,4 +31,7 @@ def similarity_calculation(new_mat,
     :param metric: string indicating the similarity/distance metric to be used,
         cosine is the default.
 
-    :return: ndarray, similarity for eac
+    :return: ndarray, similarity for each old document.
+    """
+
+    # Check that
