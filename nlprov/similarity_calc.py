@@ -37,3 +37,5 @@ def similarity_calculation(new_mat,
     # Check that metric is supported
     assert metric in supported_metrics
 
+    # Check dimensionality of new and old are compatible
+    a
