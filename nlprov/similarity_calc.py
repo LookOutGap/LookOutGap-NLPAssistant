@@ -40,4 +40,5 @@ def similarity_calculation(new_mat,
     # Check dimensionality of new and old are compatible
     assert new_mat.shape[1] == old_mat.shape[1]
 
-    # Check tha
+    # Check that new only contains a single nc
+    assert new_mat.shap
