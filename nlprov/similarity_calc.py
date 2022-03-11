@@ -41,4 +41,7 @@ def similarity_calculation(new_mat,
     assert new_mat.shape[1] == old_mat.shape[1]
 
     # Check that new only contains a single nc
-    assert new_mat.shap
+    assert new_mat.shape[0] == 1
+
+    if metric in dense_metrics:
+      
