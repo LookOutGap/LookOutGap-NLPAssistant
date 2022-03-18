@@ -45,4 +45,5 @@ def similarity_calculation(new_mat,
 
     if metric in dense_metrics:
         warnings.warn("Your choice of distance does not support sparse " + \
-                      "input and will now be converted to
+                      "input and will now be converted to dense " + \
+                      "representation
