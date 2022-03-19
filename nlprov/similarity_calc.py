@@ -47,4 +47,6 @@ def similarity_calculation(new_mat,
         warnings.warn("Your choice of distance does not support sparse " + \
                       "input and will now be converted to dense " + \
                       "representation. This will take up significantly " + \
-          
+                      "more memory.")
+        old_mat = old_mat.toarray()
+  
