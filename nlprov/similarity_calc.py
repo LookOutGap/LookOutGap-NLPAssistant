@@ -49,4 +49,6 @@ def similarity_calculation(new_mat,
                       "representation. This will take up significantly " + \
                       "more memory.")
         old_mat = old_mat.toarray()
-  
+        new_mat = new_mat.toarray()
+
+        if metric 
