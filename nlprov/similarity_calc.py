@@ -51,4 +51,5 @@ def similarity_calculation(new_mat,
         old_mat = old_mat.toarray()
         new_mat = new_mat.toarray()
 
-        if metric 
+        if metric in ['jaccard', 'dice']:
+            old_mat = old_mat.ast
