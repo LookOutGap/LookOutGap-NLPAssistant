@@ -55,4 +55,5 @@ def similarity_calculation(new_mat,
             old_mat = old_mat.astype(bool)
             new_mat = new_mat.astype(bool)
 
-    # C
+    # Calculate distance using sklearn and do 1 - distances
+ 
