@@ -52,4 +52,7 @@ def similarity_calculation(new_mat,
         new_mat = new_mat.toarray()
 
         if metric in ['jaccard', 'dice']:
-            old_mat = old_mat.ast
+            old_mat = old_mat.astype(bool)
+            new_mat = new_mat.astype(bool)
+
+    # C
