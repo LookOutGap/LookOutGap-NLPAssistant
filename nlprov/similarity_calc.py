@@ -56,4 +56,4 @@ def similarity_calculation(new_mat,
             new_mat = new_mat.astype(bool)
 
     # Calculate distance using sklearn and do 1 - distances
- 
+    similarities = 1 - pairwise_distances(new_mat, old_mat,
