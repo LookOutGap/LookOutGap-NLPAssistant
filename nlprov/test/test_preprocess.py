@@ -10,4 +10,6 @@ from conftest import sents_chars_expected, sents_nums_expected, \
     sents_all_expected
 
 
-# Creating data f
+# Creating data for the whitespace removal test
+@pytest.fixture
+def whites
