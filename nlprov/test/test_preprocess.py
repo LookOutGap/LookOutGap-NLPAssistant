@@ -12,4 +12,5 @@ from conftest import sents_chars_expected, sents_nums_expected, \
 
 # Creating data for the whitespace removal test
 @pytest.fixture
-def whites
+def whitespace_removal_expected():
+    return pd.Series(data=["fr
