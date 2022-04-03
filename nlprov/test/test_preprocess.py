@@ -13,4 +13,5 @@ from conftest import sents_chars_expected, sents_nums_expected, \
 # Creating data for the whitespace removal test
 @pytest.fixture
 def whitespace_removal_expected():
-    return pd.Series(data=["fr
+    return pd.Series(data=["front of line extra space.",
+                           "mo
