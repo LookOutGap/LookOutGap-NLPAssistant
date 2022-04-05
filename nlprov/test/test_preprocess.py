@@ -15,4 +15,5 @@ from conftest import sents_chars_expected, sents_nums_expected, \
 def whitespace_removal_expected():
     return pd.Series(data=["front of line extra space.",
                            "more space at front of line.",
+                           "End of line extra space.",
                    
