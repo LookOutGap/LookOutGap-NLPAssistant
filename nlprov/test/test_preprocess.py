@@ -17,4 +17,5 @@ def whitespace_removal_expected():
                            "more space at front of line.",
                            "End of line extra space.",
                            "More space at end of line.",
-                           "Space 
+                           "Space in the middle.",
+                           "More space in th
