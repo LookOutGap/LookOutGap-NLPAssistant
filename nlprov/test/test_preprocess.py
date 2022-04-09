@@ -19,4 +19,9 @@ def whitespace_removal_expected():
                            "More space at end of line.",
                            "Space in the middle.",
                            "More space in the middle.",
-                           "Combination o
+                           "Combination of spaces."])
+
+
+@pytest.fixture
+def whitespace_removal_actual():
+ 
