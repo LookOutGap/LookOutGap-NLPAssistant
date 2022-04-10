@@ -24,4 +24,5 @@ def whitespace_removal_expected():
 
 @pytest.fixture
 def whitespace_removal_actual():
-    return pd.Series(data=[" front of line extra s
+    return pd.Series(data=[" front of line extra space.",
+                           "    more space at fron
