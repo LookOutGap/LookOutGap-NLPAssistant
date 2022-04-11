@@ -26,4 +26,5 @@ def whitespace_removal_expected():
 def whitespace_removal_actual():
     return pd.Series(data=[" front of line extra space.",
                            "    more space at front of line.",
-                           "E
+                           "End of line extra space. ",
+                           "More
