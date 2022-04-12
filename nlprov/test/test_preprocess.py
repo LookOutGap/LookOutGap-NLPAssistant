@@ -28,4 +28,5 @@ def whitespace_removal_actual():
                            "    more space at front of line.",
                            "End of line extra space. ",
                            "More space at end of line.     ",
-                           "S
+                           "Space in the  middle.",
+                    
