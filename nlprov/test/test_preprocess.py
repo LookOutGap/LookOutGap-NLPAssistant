@@ -27,4 +27,5 @@ def whitespace_removal_actual():
     return pd.Series(data=[" front of line extra space.",
                            "    more space at front of line.",
                            "End of line extra space. ",
-                           "More
+                           "More space at end of line.     ",
+                           "S
