@@ -30,4 +30,7 @@ def whitespace_removal_actual():
                            "More space at end of line.     ",
                            "Space in the  middle.",
                            "More space in the   middle.",
-                           "
+                           "  Combination  of   spaces.    "])
+
+
+# Testing whitespace re
