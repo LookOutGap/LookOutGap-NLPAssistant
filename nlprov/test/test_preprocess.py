@@ -33,4 +33,5 @@ def whitespace_removal_actual():
                            "  Combination  of   spaces.    "])
 
 
-# Testing whitespace re
+# Testing whitespace removal
+def test_whitespace_removal(whitespace_removal_act
