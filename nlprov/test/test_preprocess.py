@@ -34,4 +34,5 @@ def whitespace_removal_actual():
 
 
 # Testing whitespace removal
-def test_whitespace_removal(whitespace_removal_act
+def test_whitespace_removal(whitespace_removal_actual,
+                            whitespace_remov
