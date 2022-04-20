@@ -36,4 +36,5 @@ def whitespace_removal_actual():
 # Testing whitespace removal
 def test_whitespace_removal(whitespace_removal_actual,
                             whitespace_removal_expected):
-    preprocessed = preprocess_text(whitespace_r
+    preprocessed = preprocess_text(whitespace_removal_actual, lowercase=False,
+                          
