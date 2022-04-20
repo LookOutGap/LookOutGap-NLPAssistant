@@ -37,4 +37,5 @@ def whitespace_removal_actual():
 def test_whitespace_removal(whitespace_removal_actual,
                             whitespace_removal_expected):
     preprocessed = preprocess_text(whitespace_removal_actual, lowercase=False,
-                          
+                                   regex='(?!).*', eng_lang=False)
+    pd.testing
