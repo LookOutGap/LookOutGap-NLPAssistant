@@ -38,4 +38,8 @@ def test_whitespace_removal(whitespace_removal_actual,
                             whitespace_removal_expected):
     preprocessed = preprocess_text(whitespace_removal_actual, lowercase=False,
                                    regex='(?!).*', eng_lang=False)
-    pd.testing.assert_series_equal(whitespace_removal_expected, pre
+    pd.testing.assert_series_equal(whitespace_removal_expected, preprocessed)
+
+
+# Creating data for the lowercase test
+@pyte
