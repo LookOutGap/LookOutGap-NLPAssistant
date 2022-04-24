@@ -42,4 +42,6 @@ def test_whitespace_removal(whitespace_removal_actual,
 
 
 # Creating data for the lowercase test
-@pyte
+@pytest.fixture
+def lowercase_actual():
+ 
