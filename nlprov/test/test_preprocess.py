@@ -45,4 +45,5 @@ def test_whitespace_removal(whitespace_removal_actual,
 @pytest.fixture
 def lowercase_actual():
     return pd.Series(data=["ALL UPPERCASE",
-          
+                           "CaMeL cAsE",
+                           "Mi
