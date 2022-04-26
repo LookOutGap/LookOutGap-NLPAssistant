@@ -46,4 +46,5 @@ def test_whitespace_removal(whitespace_removal_actual,
 def lowercase_actual():
     return pd.Series(data=["ALL UPPERCASE",
                            "CaMeL cAsE",
-                           "Mi
+                           "MixEd CASe",
+                           "all lowe
