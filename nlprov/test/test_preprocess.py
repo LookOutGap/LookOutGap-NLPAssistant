@@ -47,4 +47,9 @@ def lowercase_actual():
     return pd.Series(data=["ALL UPPERCASE",
                            "CaMeL cAsE",
                            "MixEd CASe",
-                           "all lowe
+                           "all lowercase"])
+
+
+@pytest.fixture
+def lowercase_expected():
+    return pd.S
