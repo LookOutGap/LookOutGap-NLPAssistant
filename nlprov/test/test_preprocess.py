@@ -55,4 +55,8 @@ def lowercase_expected():
     return pd.Series(data=["all uppercase",
                            "camel case",
                            "mixed case",
-          
+                           "all lowercase"])
+
+
+# Testing lowercase
+def test_lower
