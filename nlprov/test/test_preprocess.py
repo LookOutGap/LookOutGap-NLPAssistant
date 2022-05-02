@@ -59,4 +59,5 @@ def lowercase_expected():
 
 
 # Testing lowercase
-def test_lower
+def test_lowercase(lowercase_actual, lowercase_expected):
+ 
