@@ -60,4 +60,5 @@ def lowercase_expected():
 
 # Testing lowercase
 def test_lowercase(lowercase_actual, lowercase_expected):
- 
+    preprocessed = preprocess_text(lowercase_actual,
+      
