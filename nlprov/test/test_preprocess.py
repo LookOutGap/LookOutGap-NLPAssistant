@@ -62,4 +62,5 @@ def lowercase_expected():
 def test_lowercase(lowercase_actual, lowercase_expected):
     preprocessed = preprocess_text(lowercase_actual,
                                    regex='(?!).*',
-                  
+                                   eng_lang=False)
+    pd.testing.assert_series_equal(lowerc
