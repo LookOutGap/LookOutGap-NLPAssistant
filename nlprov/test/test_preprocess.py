@@ -67,4 +67,5 @@ def test_lowercase(lowercase_actual, lowercase_expected):
 
 
 # Some examples from:
-# https://github.com/explosion/spaCy/blob/master/spacy/t
+# https://github.com/explosion/spaCy/blob/master/spacy/tests/tokenizer/test_naughty_strings.py
+# Creating rege
