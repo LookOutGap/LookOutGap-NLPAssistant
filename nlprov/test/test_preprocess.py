@@ -67,4 +67,4 @@ def test_lowercase(lowercase_actual, lowercase_expected):
 
 
 # Some examples from:
-# h
+# https://github.com/explosion/spaCy/blob/master/spacy/t
