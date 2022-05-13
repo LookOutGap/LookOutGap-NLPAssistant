@@ -71,4 +71,5 @@ def test_lowercase(lowercase_actual, lowercase_expected):
 # Creating regex series that will be used for the next 4 tests
 @pytest.fixture
 def sents_regex():
-    return pd.Series(data=["ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    return pd.Series(data=["ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                           "abcdefghijklmnopqrst
