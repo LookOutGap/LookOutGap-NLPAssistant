@@ -74,4 +74,6 @@ def sents_regex():
     return pd.Series(data=["ABCDEFGHIJKLMNOPQRSTUVWXYZ",
                            "abcdefghijklmnopqrstuvwxyz",
                            "0123456789",
-         
+                           "",
+                           ",./;'[]\-=",
+ 
