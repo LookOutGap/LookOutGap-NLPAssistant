@@ -91,4 +91,6 @@ def sents_regex():
                            ])
 
 
-# Expected response when defaul
+# Expected response when default preprocessing
+@pytest.fixture
+def sents_default_expect
