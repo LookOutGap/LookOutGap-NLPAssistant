@@ -93,4 +93,5 @@ def sents_regex():
 
 # Expected response when default preprocessing
 @pytest.fixture
-def sents_default_expect
+def sents_default_expected():
+    return pd.Series(data=["ABCDEFGHIJ
