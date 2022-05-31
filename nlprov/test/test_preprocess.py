@@ -95,4 +95,6 @@ def sents_regex():
 @pytest.fixture
 def sents_default_expected():
     return pd.Series(data=["ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-                           "abcdefghijklmnopqrst
+                           "abcdefghijklmnopqrstuvwxyz",
+                           "0123456789",
+   
