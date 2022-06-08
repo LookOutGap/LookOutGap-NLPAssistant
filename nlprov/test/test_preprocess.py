@@ -112,3 +112,7 @@ def sents_default_expected():
                            "",
                            ""
                            ])
+
+
+# Testing the default regex preprocess
+def test_regex_de
