@@ -117,4 +117,5 @@ def sents_default_expected():
 # Testing the default regex preprocess
 def test_regex_default(sents_regex, sents_default_expected):
     sents_preprocessed = preprocess_text(sents_regex,
-                                         lowercase=False
+                                         lowercase=False,
+                                         eng_lang=False)
