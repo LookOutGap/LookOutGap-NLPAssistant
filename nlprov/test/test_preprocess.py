@@ -119,4 +119,7 @@ def test_regex_default(sents_regex, sents_default_expected):
     sents_preprocessed = preprocess_text(sents_regex,
                                          lowercase=False,
                                          eng_lang=False)
-    pd.testing.assert_series_equal(sents_default_ex
+    pd.testing.assert_series_equal(sents_default_expected, sents_preprocessed)
+
+
+# Unfortunately, you can't use
