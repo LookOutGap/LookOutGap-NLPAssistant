@@ -122,4 +122,5 @@ def test_regex_default(sents_regex, sents_default_expected):
     pd.testing.assert_series_equal(sents_default_expected, sents_preprocessed)
 
 
-# Unfortunately, you can't use
+# Unfortunately, you can't use fixtures in the parametrize so we are pulling
+# the data from c
