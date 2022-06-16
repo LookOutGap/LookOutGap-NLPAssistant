@@ -125,4 +125,5 @@ def test_regex_default(sents_regex, sents_default_expected):
 # Unfortunately, you can't use fixtures in the parametrize so we are pulling
 # the data from conftest.py
 # Parametrize allows you to send through multiple parameters into the same test
-# Testing a character re
+# Testing a character regex, number regex, and all regex
+@pytest.mark.parame
