@@ -126,4 +126,5 @@ def test_regex_default(sents_regex, sents_default_expected):
 # the data from conftest.py
 # Parametrize allows you to send through multiple parameters into the same test
 # Testing a character regex, number regex, and all regex
-@pytest.mark.parame
+@pytest.mark.parametrize("expected, regex",
+                         [
