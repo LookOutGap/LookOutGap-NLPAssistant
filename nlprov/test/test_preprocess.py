@@ -129,4 +129,5 @@ def test_regex_default(sents_regex, sents_default_expected):
 @pytest.mark.parametrize("expected, regex",
                          [(sents_chars_expected(), '(?![A-Za-z]).'),
                           (sents_nums_expected(), '(?![0-9]).'),
- 
+                          (sents_all_expected(), '(?!).*')])
+def test
