@@ -132,4 +132,5 @@ def test_regex_default(sents_regex, sents_default_expected):
                           (sents_all_expected(), '(?!).*')])
 def test_regex_cases(sents_regex, expected, regex):
     sents_preprocessed = preprocess_text(sents_regex, lowercase=False,
-                                         regex=rege
+                                         regex=regex,
+                                         eng_lang=Fal
