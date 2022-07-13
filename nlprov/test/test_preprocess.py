@@ -133,4 +133,5 @@ def test_regex_default(sents_regex, sents_default_expected):
 def test_regex_cases(sents_regex, expected, regex):
     sents_preprocessed = preprocess_text(sents_regex, lowercase=False,
                                          regex=regex,
-                                         eng_lang=Fal
+                                         eng_lang=False)
+    pd.testing.assert_series_equal(expected, sents_p
