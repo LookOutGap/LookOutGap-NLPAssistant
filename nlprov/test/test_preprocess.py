@@ -137,4 +137,8 @@ def test_regex_cases(sents_regex, expected, regex):
     pd.testing.assert_series_equal(expected, sents_preprocessed)
 
 
-# Creating data for the dict_replace tes
+# Creating data for the dict_replace test
+@pytest.fixture
+def sample_dict():
+    return dict({'old': 'new',
+              
