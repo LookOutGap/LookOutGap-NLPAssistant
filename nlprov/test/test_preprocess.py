@@ -141,4 +141,8 @@ def test_regex_cases(sents_regex, expected, regex):
 @pytest.fixture
 def sample_dict():
     return dict({'old': 'new',
-              
+                 'term': 'word'})
+
+
+@pytest.fixture
+def dict_replace_a
