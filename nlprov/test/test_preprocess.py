@@ -147,4 +147,5 @@ def sample_dict():
 @pytest.fixture
 def dict_replace_actual():
     return pd.Series(data=["no\xa0break space",
-       
+                           "old term",
+                        
