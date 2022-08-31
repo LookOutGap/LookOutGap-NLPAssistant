@@ -152,4 +152,5 @@ def dict_replace_actual():
 
 
 @pytest.fixture
-def dict_repla
+def dict_replace_default_expected():
+    return pd.Series(data=["no brea
