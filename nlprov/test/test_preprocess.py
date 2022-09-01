@@ -157,3 +157,7 @@ def dict_replace_default_expected():
                            "old term",
                            "normal string"])
 
+
+@pytest.fixture
+def dict_replace_expected():
+  
