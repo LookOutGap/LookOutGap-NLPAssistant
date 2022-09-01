@@ -153,4 +153,5 @@ def dict_replace_actual():
 
 @pytest.fixture
 def dict_replace_default_expected():
-    return pd.Series(data=["no brea
+    return pd.Series(data=["no break space",
+                           "old term",
