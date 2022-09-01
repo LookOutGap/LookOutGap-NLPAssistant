@@ -155,3 +155,5 @@ def dict_replace_actual():
 def dict_replace_default_expected():
     return pd.Series(data=["no break space",
                            "old term",
+                           "normal string"])
+
