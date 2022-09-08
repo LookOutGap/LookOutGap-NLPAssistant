@@ -162,4 +162,7 @@ def dict_replace_default_expected():
 def dict_replace_expected():
     return pd.Series(data=["no break space",
                            "new word",
-                           "normal s
+                           "normal string"])
+
+
+# Testing dict_replace with no additional d
