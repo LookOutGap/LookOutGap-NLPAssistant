@@ -165,4 +165,5 @@ def dict_replace_expected():
                            "normal string"])
 
 
-# Testing dict_replace with no additional d
+# Testing dict_replace with no additional dictionary items
+def test_default_dict_replace(dict_rep
