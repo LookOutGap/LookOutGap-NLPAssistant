@@ -168,4 +168,5 @@ def dict_replace_expected():
 # Testing dict_replace with no additional dictionary items
 def test_default_dict_replace(dict_replace_actual,
                               dict_replace_default_expected):
-    preprocessed = preprocess_text(dict_repl
+    preprocessed = preprocess_text(dict_replace_actual, eng_lang=False)
+    pd.testing.assert_series_equal(dic
