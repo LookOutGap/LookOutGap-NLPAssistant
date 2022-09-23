@@ -175,4 +175,5 @@ def test_default_dict_replace(dict_replace_actual,
 
 # Testing dict_replace with additional dictionary items
 def test_dict_replace(dict_replace_actual, dict_replace_expected, sample_dict):
-    preprocessed = preprocess_text(dict_rep
+    preprocessed = preprocess_text(dict_replace_actual,
+                                   replac
