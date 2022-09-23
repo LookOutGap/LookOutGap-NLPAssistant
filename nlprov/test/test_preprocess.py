@@ -173,4 +173,5 @@ def test_default_dict_replace(dict_replace_actual,
                                    preprocessed)
 
 
-# Testing dict_r
+# Testing dict_replace with additional dictionary items
+def test_dict_rep
