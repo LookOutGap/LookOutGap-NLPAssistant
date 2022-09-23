@@ -174,4 +174,4 @@ def test_default_dict_replace(dict_replace_actual,
 
 
 # Testing dict_replace with additional dictionary items
-def test_dict_rep
+def test_dict_replace(dict_replace_actual, dict_replace_expected, sam
