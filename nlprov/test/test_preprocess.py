@@ -178,4 +178,8 @@ def test_dict_replace(dict_replace_actual, dict_replace_expected, sample_dict):
     preprocessed = preprocess_text(dict_replace_actual,
                                    replace_dict=sample_dict,
                                    eng_lang=False)
-    pd.testing.assert_series_equal(dict_replace_expec
+    pd.testing.assert_series_equal(dict_replace_expected, preprocessed)
+
+
+@pytest.fixture
+def nan_removal_actual()
