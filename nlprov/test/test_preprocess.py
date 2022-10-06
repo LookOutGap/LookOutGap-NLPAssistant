@@ -184,4 +184,8 @@ def test_dict_replace(dict_replace_actual, dict_replace_expected, sample_dict):
 @pytest.fixture
 def nan_removal_actual():
     return pd.Series(data=["front of line extra space",
-   
+                           np.nan,
+                           pd.NaT])
+
+
+@pytest.fixtu
