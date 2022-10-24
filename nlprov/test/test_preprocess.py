@@ -194,4 +194,5 @@ def nan_removal_expected():
 
 
 @pytest.fixture
-def nan
+def nan_replace_expected():
+    return pd.Series(data=["f
