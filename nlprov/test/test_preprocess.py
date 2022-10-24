@@ -188,4 +188,6 @@ def nan_removal_actual():
                            pd.NaT])
 
 
-@pytest.fixtu
+@pytest.fixture
+def nan_removal_expected():
+    return pd.Series
