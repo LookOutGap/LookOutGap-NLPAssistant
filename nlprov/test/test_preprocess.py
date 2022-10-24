@@ -190,4 +190,8 @@ def nan_removal_actual():
 
 @pytest.fixture
 def nan_removal_expected():
-    return pd.Series
+    return pd.Series(data=["front of line extra space"])
+
+
+@pytest.fixture
+def nan
