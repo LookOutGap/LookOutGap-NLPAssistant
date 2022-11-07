@@ -197,4 +197,7 @@ def nan_removal_expected():
 def nan_replace_expected():
     return pd.Series(data=["front of line extra space",
                            "bad",
-   
+                           "bad"])
+
+
+# Testing
