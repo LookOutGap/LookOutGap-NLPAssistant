@@ -200,4 +200,5 @@ def nan_replace_expected():
                            "bad"])
 
 
-# Testing
+# Testing remove NAs/NaNs
+def test_nan_removal(nan_re
