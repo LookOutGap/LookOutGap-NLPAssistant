@@ -203,4 +203,5 @@ def nan_replace_expected():
 # Testing remove NAs/NaNs
 def test_nan_removal(nan_removal_actual, nan_removal_expected):
     preprocessed = preprocess_text(nan_removal_actual, nan_handling='remove',
-  
+                                   eng_lang=False)
+    pd.testing.as
