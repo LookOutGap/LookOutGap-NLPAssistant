@@ -208,4 +208,5 @@ def test_nan_removal(nan_removal_actual, nan_removal_expected):
 
 
 # Testing replace NAs/NaNs
-def test_nan_replace(na
+def test_nan_replace(nan_removal_actual, nan_replace_expected):
+    preprocessed = prep
