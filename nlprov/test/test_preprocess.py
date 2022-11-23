@@ -211,4 +211,4 @@ def test_nan_removal(nan_removal_actual, nan_removal_expected):
 def test_nan_replace(nan_removal_actual, nan_replace_expected):
     preprocessed = preprocess_text(nan_removal_actual, nan_handling='bad',
                                    eng_lang=False)
-    p
+    pd.testing.assert_series_equal(nan_replace_expected, preprocessed)
