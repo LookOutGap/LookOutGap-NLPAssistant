@@ -212,3 +212,7 @@ def test_nan_replace(nan_removal_actual, nan_replace_expected):
     preprocessed = preprocess_text(nan_removal_actual, nan_handling='bad',
                                    eng_lang=False)
     pd.testing.assert_series_equal(nan_replace_expected, preprocessed)
+
+
+# Creating data for the lemmatizer
+@pytest.fixture
