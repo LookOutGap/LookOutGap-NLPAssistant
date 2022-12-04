@@ -216,3 +216,5 @@ def test_nan_replace(nan_removal_actual, nan_replace_expected):
 
 # Creating data for the lemmatizer
 @pytest.fixture
+def lemma_actual():
+    return pd.Series(data=["lemmas neede
