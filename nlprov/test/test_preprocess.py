@@ -218,4 +218,5 @@ def test_nan_replace(nan_removal_actual, nan_replace_expected):
 @pytest.fixture
 def lemma_actual():
     return pd.Series(data=["lemmas needed",
-                           "ducks and cats and ponie
+                           "ducks and cats and ponies are not similar",
+                           "normal st
