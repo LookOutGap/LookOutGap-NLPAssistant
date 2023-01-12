@@ -225,4 +225,5 @@ def lemma_actual():
 @pytest.fixture
 def lemma_expected():
     return pd.Series(data=["lemmas need",
-                           "duck and 
+                           "duck and cat and pony be not similar",
+                           
