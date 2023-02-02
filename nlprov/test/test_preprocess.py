@@ -226,4 +226,8 @@ def lemma_actual():
 def lemma_expected():
     return pd.Series(data=["lemmas need",
                            "duck and cat and pony be not similar",
-                           
+                           "normal string"])
+
+
+# Testing lemmatizer
+def test_lemma(lemma_actual,
