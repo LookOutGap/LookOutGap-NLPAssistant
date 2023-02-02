@@ -230,4 +230,5 @@ def lemma_expected():
 
 
 # Testing lemmatizer
-def test_lemma(lemma_actual,
+def test_lemma(lemma_actual, lemma_expected):
+    preprocessed = preprocess_text(lemma
