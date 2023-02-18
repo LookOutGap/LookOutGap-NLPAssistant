@@ -232,4 +232,7 @@ def lemma_expected():
 # Testing lemmatizer
 def test_lemma(lemma_actual, lemma_expected):
     preprocessed = preprocess_text(lemma_actual, lemma=True, eng_lang=False)
-    pd.testing.asser
+    pd.testing.assert_series_equal(lemma_expected, preprocessed)
+
+
+# Test 
