@@ -236,4 +236,6 @@ def test_lemma(lemma_actual, lemma_expected):
 
 
 # Test data for the list of token list output (lemmas)
-@py
+@pytest.fixture
+def token_list_expected():
+    return pd.Series(data=[[
