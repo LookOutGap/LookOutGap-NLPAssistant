@@ -240,4 +240,5 @@ def test_lemma(lemma_actual, lemma_expected):
 def token_list_expected():
     return pd.Series(data=[['lemmas', 'need'],
                            ['duck', 'and', 'cat', 'and', 'pony', 'be',
-                            'no
+                            'not', 'similar'],
+                           ['normal', '
