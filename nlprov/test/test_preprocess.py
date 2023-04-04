@@ -241,4 +241,8 @@ def token_list_expected():
     return pd.Series(data=[['lemmas', 'need'],
                            ['duck', 'and', 'cat', 'and', 'pony', 'be',
                             'not', 'similar'],
-                           ['normal', '
+                           ['normal', 'string']])
+
+
+# Test data for the list of token list output (no lemmas)
+@p
