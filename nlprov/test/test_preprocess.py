@@ -247,4 +247,7 @@ def token_list_expected():
 # Test data for the list of token list output (no lemmas)
 @pytest.fixture
 def token_list_actual2():
-    return 
+    return pd.Series(data=['black cat', 'red dogs in view'])
+
+
+# Test da
