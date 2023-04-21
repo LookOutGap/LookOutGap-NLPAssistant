@@ -254,4 +254,8 @@ def token_list_actual2():
 @pytest.fixture
 def token_list_expected2():
     return pd.Series(data=[['black', 'cat'],
-                           ['red', 'dogs', '
+                           ['red', 'dogs', 'in', 'view']])
+
+
+# Testing token list (lemmas)
+def test_token
