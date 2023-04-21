@@ -251,4 +251,6 @@ def token_list_actual2():
 
 
 # Test data for the list of token list output (no lemmas)
-@p
+@pytest.fixture
+def token_list_expected2():
+    return pd.Series(da
