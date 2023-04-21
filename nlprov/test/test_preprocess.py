@@ -258,4 +258,5 @@ def token_list_expected2():
 
 
 # Testing token list (lemmas)
-def test_token
+def test_token_list(lemma_actual, token_list_expected):
+    preprocessed = preproces
