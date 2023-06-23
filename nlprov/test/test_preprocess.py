@@ -261,4 +261,8 @@ def token_list_expected2():
 def test_token_list(lemma_actual, token_list_expected):
     preprocessed = preprocess_text(lemma_actual, lemma=True, token_list=True,
                                    eng_lang=False)
-    pd.testing.assert_series_equal(token_list_expected, 
+    pd.testing.assert_series_equal(token_list_expected, preprocessed)
+
+
+# Testing token list (no lemmas)
+def test_t
