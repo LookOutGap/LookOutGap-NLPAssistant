@@ -265,4 +265,6 @@ def test_token_list(lemma_actual, token_list_expected):
 
 
 # Testing token list (no lemmas)
-def test_token_list2(token_list_actual2, token_list_expected2
+def test_token_list2(token_list_actual2, token_list_expected2):
+    preprocessed = preprocess_text(token_list_actual2, lemma=False,
+       
