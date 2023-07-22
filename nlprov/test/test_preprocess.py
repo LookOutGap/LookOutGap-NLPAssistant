@@ -268,4 +268,9 @@ def test_token_list(lemma_actual, token_list_expected):
 def test_token_list2(token_list_actual2, token_list_expected2):
     preprocessed = preprocess_text(token_list_actual2, lemma=False,
                                    token_list=True, eng_lang=False)
-    pd.testing.assert_series_equal(token_list_expected2, preprocess
+    pd.testing.assert_series_equal(token_list_expected2, preprocessed)
+
+
+# Creating data for stemming
+@pytest.fixture
+def s
