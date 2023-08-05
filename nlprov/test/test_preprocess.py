@@ -273,4 +273,5 @@ def test_token_list2(token_list_actual2, token_list_expected2):
 
 # Creating data for stemming
 @pytest.fixture
-def s
+def stem_actual():
+    return pd.Series(data
