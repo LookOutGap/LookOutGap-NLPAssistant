@@ -275,4 +275,5 @@ def test_token_list2(token_list_actual2, token_list_expected2):
 @pytest.fixture
 def stem_actual():
     return pd.Series(data=["stemming needed",
-                           "ducks and 
+                           "ducks and cats and ponies are not similar",
+                      
