@@ -282,4 +282,4 @@ def stem_actual():
 @pytest.fixture
 def stem_expected():
     return pd.Series(data=["stem need",
-               
+                           "duck and cat and poni are not similar",
