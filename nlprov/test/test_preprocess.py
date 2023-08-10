@@ -283,3 +283,7 @@ def stem_actual():
 def stem_expected():
     return pd.Series(data=["stem need",
                            "duck and cat and poni are not similar",
+                           "normal string"])
+
+
+# Testi
