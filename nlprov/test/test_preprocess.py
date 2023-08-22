@@ -286,4 +286,6 @@ def stem_expected():
                            "normal string"])
 
 
-# Testi
+# Testing stemmer
+def test_stem(stem_actual, stem_expected):
+    pre
