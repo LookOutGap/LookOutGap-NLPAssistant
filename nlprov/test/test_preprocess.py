@@ -288,4 +288,4 @@ def stem_expected():
 
 # Testing stemmer
 def test_stem(stem_actual, stem_expected):
-    pre
+    preprocessed = preprocess_text(stem_actual, stem=True, eng_
