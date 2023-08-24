@@ -288,4 +288,5 @@ def stem_expected():
 
 # Testing stemmer
 def test_stem(stem_actual, stem_expected):
-    preprocessed = preprocess_text(stem_actual, stem=True, eng_
+    preprocessed = preprocess_text(stem_actual, stem=True, eng_lang=False)
+    pd.testing.assert_series_equal(stem_expected
