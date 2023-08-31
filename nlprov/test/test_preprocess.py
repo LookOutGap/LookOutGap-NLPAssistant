@@ -289,4 +289,7 @@ def stem_expected():
 # Testing stemmer
 def test_stem(stem_actual, stem_expected):
     preprocessed = preprocess_text(stem_actual, stem=True, eng_lang=False)
-    pd.testing.assert_series_equal(stem_expected
+    pd.testing.assert_series_equal(stem_expected, preprocessed)
+
+
+# Test error of stem and lemma
