@@ -295,4 +295,7 @@ def test_stem(stem_actual, stem_expected):
 # Test error of stem and lemma
 def test_stem_and_lemma(stem_actual):
     with pytest.raises(Exception):
-        preprocess_text(stem_actual, s
+        preprocess_text(stem_actual, stem=True, lemma=True, eng_lang=False)
+
+
+# Create data 
