@@ -298,4 +298,6 @@ def test_stem_and_lemma(stem_actual):
         preprocess_text(stem_actual, stem=True, lemma=True, eng_lang=False)
 
 
-# Create data 
+# Create data for language detection
+@pytest.fixture
+def language_actu
