@@ -301,4 +301,6 @@ def test_stem_and_lemma(stem_actual):
 # Create data for language detection
 @pytest.fixture
 def language_actual():
-    return pd.Series(data=["this is
+    return pd.Series(data=["this is english",
+                           "c'est français",
+    
