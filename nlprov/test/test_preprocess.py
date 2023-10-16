@@ -303,4 +303,5 @@ def test_stem_and_lemma(stem_actual):
 def language_actual():
     return pd.Series(data=["this is english",
                            "c'est français",
-    
+                           "das ist deutsch",
+                  
