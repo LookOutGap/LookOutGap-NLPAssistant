@@ -310,4 +310,5 @@ def language_actual():
 
 @pytest.fixture
 def language_expected():
-    return p
+    return pd.Series(data=["this is english",
+                           
