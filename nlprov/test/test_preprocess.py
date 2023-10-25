@@ -313,4 +313,7 @@ def language_expected():
     return pd.Series(data=["this is english",
                            "this is una mezcla",
                            "this is also english"],
-                     index=[0, 
+                     index=[0, 3, 4])
+
+
+# Test language detection and removal of non-engli
