@@ -318,4 +318,5 @@ def language_expected():
 
 # Test language detection and removal of non-english
 def test_language(language_actual, language_expected):
-    preprocessed = preprocess_text(language_actual, eng_lang=
+    preprocessed = preprocess_text(language_actual, eng_lang=True)
+    pd.testing.assert_series_equal(language
