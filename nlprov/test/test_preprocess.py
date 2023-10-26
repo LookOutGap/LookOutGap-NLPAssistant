@@ -316,4 +316,6 @@ def language_expected():
                      index=[0, 3, 4])
 
 
-# Test language detection and removal of non-engli
+# Test language detection and removal of non-english
+def test_language(language_actual, language_expected):
+    prepr
