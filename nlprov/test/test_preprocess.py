@@ -330,4 +330,6 @@ def stopword_sents():
 
 
 @pytest.fixture
-def stopword_removal_expected
+def stopword_removal_expected():
+    return pd.Series(data=["cat dog",
+     
