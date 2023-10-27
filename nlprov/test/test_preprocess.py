@@ -325,4 +325,8 @@ def test_language(language_actual, language_expected):
 # Testing stopword removal
 @pytest.fixture
 def stopword_sents():
-    return pd.Series(data=["th
+    return pd.Series(data=["the cat and the dog",
+                           "test all the tests"])
+
+
+@
