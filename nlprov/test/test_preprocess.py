@@ -329,4 +329,5 @@ def stopword_sents():
                            "test all the tests"])
 
 
-@
+@pytest.fixture
+def stopword_removal_expected
