@@ -332,4 +332,7 @@ def stopword_sents():
 @pytest.fixture
 def stopword_removal_expected():
     return pd.Series(data=["cat dog",
-     
+                           "test tests"])
+
+
+def test_stopword_defau
