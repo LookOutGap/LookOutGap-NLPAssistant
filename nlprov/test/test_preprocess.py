@@ -335,4 +335,5 @@ def stopword_removal_expected():
                            "test tests"])
 
 
-def test_stopword_defau
+def test_stopword_default(stopword_sents):
+    preprocessed = preprocess_text(stopwo
