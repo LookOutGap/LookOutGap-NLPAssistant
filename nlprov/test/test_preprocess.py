@@ -337,4 +337,7 @@ def stopword_removal_expected():
 
 def test_stopword_default(stopword_sents):
     preprocessed = preprocess_text(stopword_sents)
-    pd.testing.assert_series_equal(stopword
+    pd.testing.assert_series_equal(stopword_sents, preprocessed)
+
+
+def test_stopword_rem
