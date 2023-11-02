@@ -341,4 +341,4 @@ def test_stopword_default(stopword_sents):
 
 
 def test_stopword_removal(stopword_sents, stopword_removal_expected):
-    prepro
+    preprocessed = preprocess_text(stopword_sents, stop_words=T
