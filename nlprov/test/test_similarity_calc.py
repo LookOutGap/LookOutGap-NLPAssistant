@@ -26,3 +26,15 @@ test_cases = [
 @pytest.mark.parametrize(
         "x,y,metric,dist_expected",
         test_cases,
+        ids=['cosine', 'jaccard', 'manhattan', 'dice', 'hamming']
+)
+def test_similarity_calc(x, y, metric, dist_expected):
+    assert allclose(similarity_calculation(x, y, metric), dist_expected)
+
+
+# Test error of picking unsupported metric
+def test_unsupported_metrics():
+    with pytest.raises(Exception):
+        similarity_calculation(csr_matrix([0, 1, 1]),
+                               csr_matrix([1, 1, 1]),
+                               metric='yule')
