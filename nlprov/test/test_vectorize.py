@@ -10,4 +10,6 @@ from nlprov.vectorize import vectorize_text, vectorize_new_text
 from numpy import allclose
 
 
-@pytest.
+@pytest.fixture
+def vectorize_actual():
+    return pd.Serie
