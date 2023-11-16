@@ -12,4 +12,7 @@ from numpy import allclose
 
 @pytest.fixture
 def vectorize_actual():
-    return pd.Serie
+    return pd.Series(['red dogs', 'red cats'])
+
+
+@py
