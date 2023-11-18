@@ -18,3 +18,5 @@ def vectorize_actual():
 @pytest.fixture
 def vocab_set_expected(vectorize_actual):
     text_lol = vectorize_actual.str.split(' ').tolist()
+
+    # Flattening list of lists via https://stackoverflow.com/a
