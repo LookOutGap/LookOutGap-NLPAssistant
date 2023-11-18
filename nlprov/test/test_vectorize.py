@@ -15,4 +15,6 @@ def vectorize_actual():
     return pd.Series(['red dogs', 'red cats'])
 
 
-@py
+@pytest.fixture
+def vocab_set_expected(vectorize_actual):
+    te
