@@ -17,4 +17,4 @@ def vectorize_actual():
 
 @pytest.fixture
 def vocab_set_expected(vectorize_actual):
-    te
+    text_lol = vectorize_actual.str.split(' ').tolist()
