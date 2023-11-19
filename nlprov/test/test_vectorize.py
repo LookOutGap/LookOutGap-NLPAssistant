@@ -20,4 +20,9 @@ def vocab_set_expected(vectorize_actual):
     text_lol = vectorize_actual.str.split(' ').tolist()
 
     # Flattening list of lists via https://stackoverflow.com/a/11264751
-    tokens = [val for sublist in text_lol for val
+    tokens = [val for sublist in text_lol for val in sublist]
+
+    return set(tokens)
+
+
+# Test for count vectorizer
