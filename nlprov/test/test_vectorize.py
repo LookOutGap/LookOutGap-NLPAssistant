@@ -26,3 +26,6 @@ def vocab_set_expected(vectorize_actual):
 
 
 # Test for count vectorizer
+@pytest.fixture
+def count_dfm_expected():
+    return csr_matr
