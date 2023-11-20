@@ -31,4 +31,5 @@ def count_dfm_expected():
     return csr_matrix([[0, 1, 1], [1, 0, 1]])
 
 
-def test_count_vectorizer(vectorize_actua
+def test_count_vectorizer(vectorize_actual, count_dfm_expected,
+                          voca
