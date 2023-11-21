@@ -33,4 +33,6 @@ def count_dfm_expected():
 
 def test_count_vectorizer(vectorize_actual, count_dfm_expected,
                           vocab_set_expected):
-    dfm, vec_obj = vectorize_text(vec
+    dfm, vec_obj = vectorize_text(vectorize_actual, vec_type='count')
+
+    # Check spar
