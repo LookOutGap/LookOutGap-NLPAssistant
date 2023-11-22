@@ -41,4 +41,5 @@ def test_count_vectorizer(vectorize_actual, count_dfm_expected,
     # Check vectorizer object type
     assert type(vec_obj) is CountVectorizer
 
-   
+    # Check original terms are included
+    vocab_set = set(vec_ob
