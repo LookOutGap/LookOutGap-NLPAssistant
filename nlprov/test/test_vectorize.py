@@ -36,4 +36,6 @@ def test_count_vectorizer(vectorize_actual, count_dfm_expected,
     dfm, vec_obj = vectorize_text(vectorize_actual, vec_type='count')
 
     # Check sparse matrix is the same (or close enough)
-    assert allclose(dfm.toarr
+    assert allclose(dfm.toarray(), count_dfm_expected.toarray())
+
+    # Check vectorize
