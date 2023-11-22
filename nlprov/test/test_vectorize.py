@@ -38,4 +38,7 @@ def test_count_vectorizer(vectorize_actual, count_dfm_expected,
     # Check sparse matrix is the same (or close enough)
     assert allclose(dfm.toarray(), count_dfm_expected.toarray())
 
-    # Check vectorize
+    # Check vectorizer object type
+    assert type(vec_obj) is CountVectorizer
+
+   
