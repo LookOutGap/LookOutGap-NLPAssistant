@@ -47,4 +47,6 @@ def test_count_vectorizer(vectorize_actual, count_dfm_expected,
 
 
 # Test for tfidf vectorizer
-@pytest.f
+@pytest.fixture
+def tfidf_dfm_expected():
+    return csr_matr
