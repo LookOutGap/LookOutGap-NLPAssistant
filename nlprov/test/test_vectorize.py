@@ -43,4 +43,8 @@ def test_count_vectorizer(vectorize_actual, count_dfm_expected,
 
     # Check original terms are included
     vocab_set = set(vec_obj.get_feature_names_out())
-    assert vocab_se
+    assert vocab_set == vocab_set_expected
+
+
+# Test for tfidf vectorizer
+@pytest.f
