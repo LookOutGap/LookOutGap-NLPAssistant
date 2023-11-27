@@ -54,4 +54,5 @@ def tfidf_dfm_expected():
 
 
 def test_tfidf_vectorizer(vectorize_actual, tfidf_dfm_expected,
-                          voca
+                          vocab_set_expected):
+    dfm, vec_obj = vectorize_text(v
