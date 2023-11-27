@@ -50,4 +50,7 @@ def test_count_vectorizer(vectorize_actual, count_dfm_expected,
 @pytest.fixture
 def tfidf_dfm_expected():
     return csr_matrix([[0, 0.81480247, 0.57973867],
-                       [
+                       [0.81480247, 0, 0.57973867]])
+
+
+def test_tfidf_vectorizer(vect
