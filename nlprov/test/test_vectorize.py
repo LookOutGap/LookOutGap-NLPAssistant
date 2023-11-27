@@ -53,4 +53,5 @@ def tfidf_dfm_expected():
                        [0.81480247, 0, 0.57973867]])
 
 
-def test_tfidf_vectorizer(vect
+def test_tfidf_vectorizer(vectorize_actual, tfidf_dfm_expected,
+                          voca
