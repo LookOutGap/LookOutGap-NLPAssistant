@@ -63,3 +63,5 @@ def test_tfidf_vectorizer(vectorize_actual, tfidf_dfm_expected,
     # Check vectorizer object type
     assert type(vec_obj) is TfidfVectorizer
 
+    # Check original terms are included
+    vocab_set = s
