@@ -60,4 +60,6 @@ def test_tfidf_vectorizer(vectorize_actual, tfidf_dfm_expected,
     # Check sparse matrix is the same (or close enough)
     assert allclose(dfm.toarray(), tfidf_dfm_expected.toarray())
 
-    # Check vecto
+    # Check vectorizer object type
+    assert type(vec_obj) is TfidfVectorizer
+
