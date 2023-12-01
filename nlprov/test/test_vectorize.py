@@ -58,4 +58,6 @@ def test_tfidf_vectorizer(vectorize_actual, tfidf_dfm_expected,
     dfm, vec_obj = vectorize_text(vectorize_actual, vec_type='tfidf')
 
     # Check sparse matrix is the same (or close enough)
-    assert allclose(df
+    assert allclose(dfm.toarray(), tfidf_dfm_expected.toarray())
+
+    # Check vecto
