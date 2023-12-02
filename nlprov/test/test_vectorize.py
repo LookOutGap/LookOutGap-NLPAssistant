@@ -65,4 +65,8 @@ def test_tfidf_vectorizer(vectorize_actual, tfidf_dfm_expected,
 
     # Check original terms are included
     vocab_set = set(vec_obj.get_feature_names_out())
-    assert vocab_set == vocab_set
+    assert vocab_set == vocab_set_expected
+
+
+# Test error of picking an invalid vec_type
+def 
