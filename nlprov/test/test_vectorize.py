@@ -74,4 +74,6 @@ def test_invalid_vec_type(vectorize_actual):
         vectorize_text(vectorize_actual, vec_type='Word2Vec')
 
 
-# Test vectoriz
+# Test vectorization of new text
+@pytest.fixture
+def vectorizer_actual
