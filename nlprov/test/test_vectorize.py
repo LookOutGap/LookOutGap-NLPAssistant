@@ -70,4 +70,5 @@ def test_tfidf_vectorizer(vectorize_actual, tfidf_dfm_expected,
 
 # Test error of picking an invalid vec_type
 def test_invalid_vec_type(vectorize_actual):
-    with p
+    with pytest.raises(Exception):
+        vectorize_text(vect
