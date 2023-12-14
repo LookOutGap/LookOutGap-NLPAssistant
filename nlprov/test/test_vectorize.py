@@ -76,4 +76,5 @@ def test_invalid_vec_type(vectorize_actual):
 
 # Test vectorization of new text
 @pytest.fixture
-def vectorizer_actual
+def vectorizer_actual(vectorize_actual):
+    _, vec_obj = vectorize_text(vectori
