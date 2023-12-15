@@ -81,4 +81,6 @@ def vectorizer_actual(vectorize_actual):
     return (vec_obj)
 
 
-@pytes
+@pytest.fixture
+def new_text_actual():
+    return pd
