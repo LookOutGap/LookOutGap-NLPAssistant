@@ -91,4 +91,5 @@ def new_dfm_expected():
     return csr_matrix([[1, 0, 0]])
 
 
-def test_vectorize_
+def test_vectorize_new(new_text_actual, vectorizer_actual,
+                       new_df
