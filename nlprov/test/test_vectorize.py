@@ -83,4 +83,8 @@ def vectorizer_actual(vectorize_actual):
 
 @pytest.fixture
 def new_text_actual():
-    return pd
+    return pd.Series(['blue cats'])
+
+
+@pytest.fixture
+def new_dfm_exp
