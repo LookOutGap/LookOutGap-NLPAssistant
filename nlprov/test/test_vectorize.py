@@ -92,4 +92,6 @@ def new_dfm_expected():
 
 
 def test_vectorize_new(new_text_actual, vectorizer_actual,
-                       new_df
+                       new_dfm_expected):
+    print(new_text_actual)
+    new_dfm = vectori
