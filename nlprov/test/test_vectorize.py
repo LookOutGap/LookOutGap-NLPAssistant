@@ -96,4 +96,4 @@ def test_vectorize_new(new_text_actual, vectorizer_actual,
     print(new_text_actual)
     new_dfm = vectorize_new_text(new_text_actual, vectorizer_actual)
 
-    assert allclose(new_dfm.toarray(), new_dfm_expected.toarray(
+    assert allclose(new_dfm.toarray(), new_dfm_expected.toarray())
