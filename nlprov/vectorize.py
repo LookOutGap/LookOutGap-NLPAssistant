@@ -10,4 +10,4 @@ def vectorize_text(text_col: pd.Series,
                    vec_type: str = 'count',
                    **kwargs):
     """
-    Vectoriz
+    Vectorizes pre-processed text. Instantiates the vectorizer and
