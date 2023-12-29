@@ -6,4 +6,5 @@ import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 
 
-def vectorize
+def vectorize_text(text_col: pd.Series,
+                   vec_typ
