@@ -11,3 +11,6 @@ def vectorize_text(text_col: pd.Series,
                    **kwargs):
     """
     Vectorizes pre-processed text. Instantiates the vectorizer and
+    fit_transform it to the data provided.
+
+    :param t
