@@ -13,4 +13,5 @@ def vectorize_text(text_col: pd.Series,
     Vectorizes pre-processed text. Instantiates the vectorizer and
     fit_transform it to the data provided.
 
-    :param t
+    :param text_col: Pandas series, containing preprocessed text.
+ 
