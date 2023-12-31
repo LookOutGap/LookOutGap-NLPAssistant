@@ -14,4 +14,4 @@ def vectorize_text(text_col: pd.Series,
     fit_transform it to the data provided.
 
     :param text_col: Pandas series, containing preprocessed text.
- 
+    :param vec_type: string indicating what type of vectori
