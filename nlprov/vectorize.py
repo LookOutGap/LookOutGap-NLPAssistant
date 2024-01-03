@@ -16,4 +16,5 @@ def vectorize_text(text_col: pd.Series,
     :param text_col: Pandas series, containing preprocessed text.
     :param vec_type: string indicating what type of vectorization
         (count or tfidf currently).
-    :param **kw
+    :param **kwargs: dict of keyworded arguments for sklearn vectorizer
+        
