@@ -19,4 +19,5 @@ def vectorize_text(text_col: pd.Series,
     :param **kwargs: dict of keyworded arguments for sklearn vectorizer
         functions.
 
-    :return: A tuple containing vectorized 
+    :return: A tuple containing vectorized (doc-feature matrix that as d rows
+        and f columns 
