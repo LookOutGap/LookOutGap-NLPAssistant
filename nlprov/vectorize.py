@@ -20,4 +20,5 @@ def vectorize_text(text_col: pd.Series,
         functions.
 
     :return: A tuple containing vectorized (doc-feature matrix that as d rows
-        and f columns 
+        and f columns for count and tfidf vectorization) and vectorizer_obj
+        (ve
