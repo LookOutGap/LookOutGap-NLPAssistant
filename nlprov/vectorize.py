@@ -21,4 +21,4 @@ def vectorize_text(text_col: pd.Series,
 
     :return: A tuple containing vectorized (doc-feature matrix that as d rows
         and f columns for count and tfidf vectorization) and vectorizer_obj
-        (ve
+        (vectorization sklearn object representing trained vecto
