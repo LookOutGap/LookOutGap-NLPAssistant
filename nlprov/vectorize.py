@@ -21,4 +21,7 @@ def vectorize_text(text_col: pd.Series,
 
     :return: A tuple containing vectorized (doc-feature matrix that as d rows
         and f columns for count and tfidf vectorization) and vectorizer_obj
-        (vectorization sklearn object representing trained vecto
+        (vectorization sklearn object representing trained vectorizer).
+    """
+
+    # Check if vectorization type is suppor
