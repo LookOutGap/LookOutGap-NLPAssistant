@@ -30,4 +30,4 @@ def vectorize_text(text_col: pd.Series,
     # Get raw values from pandas series
     text_raw = text_col.tolist()
 
-    # L
+    # Lets the vectorizer know the input has already been pre-
