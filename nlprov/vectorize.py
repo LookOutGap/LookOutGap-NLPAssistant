@@ -27,4 +27,7 @@ def vectorize_text(text_col: pd.Series,
     # Check if vectorization type is supported
     assert vec_type in ['count', 'tfidf']
 
-    # Get raw values
+    # Get raw values from pandas series
+    text_raw = text_col.tolist()
+
+    # L
