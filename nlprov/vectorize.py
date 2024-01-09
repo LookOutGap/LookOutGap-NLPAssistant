@@ -24,4 +24,7 @@ def vectorize_text(text_col: pd.Series,
         (vectorization sklearn object representing trained vectorizer).
     """
 
-    # Check if vectorization type is suppor
+    # Check if vectorization type is supported
+    assert vec_type in ['count', 'tfidf']
+
+    # Get raw values
