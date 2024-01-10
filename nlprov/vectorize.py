@@ -35,4 +35,5 @@ def vectorize_text(text_col: pd.Series,
     kwargs['analyzer'] = str.split
 
     # Apply proper vectorization
-    if vec_t
+    if vec_type == 'count':
+        count_vec = CountVectorizer(**kwargs)
