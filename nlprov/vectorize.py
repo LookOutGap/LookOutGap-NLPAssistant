@@ -32,4 +32,7 @@ def vectorize_text(text_col: pd.Series,
 
     # Lets the vectorizer know the input has already been pre-tokenized
     # and is now delimited by whitespaces
-    kwargs['analyzer'] =
+    kwargs['analyzer'] = str.split
+
+    # Apply proper vectorization
+    if vec_t
