@@ -30,4 +30,6 @@ def vectorize_text(text_col: pd.Series,
     # Get raw values from pandas series
     text_raw = text_col.tolist()
 
-    # Lets the vectorizer know the input has already been pre-
+    # Lets the vectorizer know the input has already been pre-tokenized
+    # and is now delimited by whitespaces
+    kwargs['analyzer'] =
