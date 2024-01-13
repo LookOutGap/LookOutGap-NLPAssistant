@@ -37,4 +37,6 @@ def vectorize_text(text_col: pd.Series,
     # Apply proper vectorization
     if vec_type == 'count':
         count_vec = CountVectorizer(**kwargs)
-        vectorized = count_vec.fit_transform(text
+        vectorized = count_vec.fit_transform(text_raw)
+        vectorizer_obj = count_vec
+    elif vec_type
