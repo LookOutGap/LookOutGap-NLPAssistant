@@ -39,4 +39,6 @@ def vectorize_text(text_col: pd.Series,
         count_vec = CountVectorizer(**kwargs)
         vectorized = count_vec.fit_transform(text_raw)
         vectorizer_obj = count_vec
-    elif vec_type
+    elif vec_type == 'tfidf':
+        tfidf_vec = TfidfVectorizer(**kwargs)
+     
