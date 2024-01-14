@@ -44,4 +44,5 @@ def vectorize_text(text_col: pd.Series,
         vectorized = tfidf_vec.fit_transform(text_raw)
         vectorizer_obj = tfidf_vec
 
-    # Return ve
+    # Return vectorized object
+    return vectorized, vectorizer_obj
