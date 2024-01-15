@@ -49,3 +49,6 @@ def vectorize_text(text_col: pd.Series,
 
 
 def vectorize_new_text(text_col: pd.Series,
+                       vectorizer_obj):
+    """
+    Vectorizes pre-pro
