@@ -46,3 +46,6 @@ def vectorize_text(text_col: pd.Series,
 
     # Return vectorized object
     return vectorized, vectorizer_obj
+
+
+def vectorize_new_text(text_col: pd.Series,
