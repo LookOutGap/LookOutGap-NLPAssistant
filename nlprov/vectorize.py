@@ -52,4 +52,6 @@ def vectorize_new_text(text_col: pd.Series,
                        vectorizer_obj):
     """
     Vectorizes pre-processed new text. Used the provided vectorizer and
-    apply/tran
+    apply/transform it to the data provided.
+
+    :param text_col: -- P
