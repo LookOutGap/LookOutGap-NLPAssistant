@@ -55,4 +55,4 @@ def vectorize_new_text(text_col: pd.Series,
     apply/transform it to the data provided.
 
     :param text_col: -- Pandas series, containing preprocessed text.
-    :param vecto
+    :param vectorizer_obj: -- Trained vectorizer object from vectoriz
