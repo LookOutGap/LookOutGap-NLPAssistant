@@ -58,4 +58,8 @@ def vectorize_new_text(text_col: pd.Series,
     :param vectorizer_obj: -- Trained vectorizer object from vectorizing old text.
 
     :return: doc-feature matrix that has d rows and f columns for count and
-        tfidf vector
+        tfidf vectorization
+    """
+
+    # Check vectorization object
+    assert type(vector
