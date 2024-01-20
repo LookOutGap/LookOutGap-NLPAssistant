@@ -67,4 +67,5 @@ def vectorize_new_text(text_col: pd.Series,
     # Get raw values from pandas series
     text_raw = text_col.tolist()
 
-   
+    # Apply proper vectorization
+    vectorized = vectorizer_
