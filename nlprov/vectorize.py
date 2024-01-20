@@ -64,4 +64,7 @@ def vectorize_new_text(text_col: pd.Series,
     # Check vectorization object
     assert type(vectorizer_obj) is CountVectorizer or TfidfVectorizer
 
-    # Get raw v
+    # Get raw values from pandas series
+    text_raw = text_col.tolist()
+
+   
