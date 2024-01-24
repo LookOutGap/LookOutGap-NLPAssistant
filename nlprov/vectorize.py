@@ -71,4 +71,4 @@ def vectorize_new_text(text_col: pd.Series,
     vectorized = vectorizer_obj.transform(text_raw)
 
     # Return vectorized object
-    
+    return vectorized
