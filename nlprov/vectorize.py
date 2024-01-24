@@ -68,4 +68,7 @@ def vectorize_new_text(text_col: pd.Series,
     text_raw = text_col.tolist()
 
     # Apply proper vectorization
-    vectorized = vectorizer_
+    vectorized = vectorizer_obj.transform(text_raw)
+
+    # Return vectorized object
+    
